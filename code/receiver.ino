@@ -9,7 +9,7 @@
 
 #define RXp2 16
 #define TXp2 17
-//Chọn service cho BLE
+//Choose service for BLE
 #define SERVICE_UUID        "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
 #define CHARACTERISTIC_UUID_TX "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
 
@@ -66,7 +66,7 @@ void loop() {
     if (deviceConnected) {
       while(Serial2.available()){
         // receive humidity
-        txValue.Byte.byte1 = Serial2.read(); 
+        txValue.Byte.byte1 = Serial2.read();
         txValue.Byte.byte2 = Serial2.read();
         txValue.Byte.byte3 = Serial2.read();
         txValue.Byte.byte4 = Serial2.read();
