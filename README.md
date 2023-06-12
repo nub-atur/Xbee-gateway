@@ -28,7 +28,7 @@ Next, we will connect each Esp32 to each Xbee by using serial protocol (Rx->Tx, 
 Then we connect DHT22 sensor to Esp32 (transmitter) like this:
 ![image](https://github.com/nub-atur/simple-xbee-gateway/assets/136115054/049b4091-1648-41f0-a9f4-c6658d9ee935)
 
-#Usage
+# Usage
 - Install all necessary libraries
 - Upload code to Esp32 board
 - Turn on your Bluetooth, connect to BLE server in receiver, and get result.
