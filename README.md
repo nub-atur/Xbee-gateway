@@ -1,4 +1,4 @@
-# XBee-Gateway-project
+# A-Gateway-using-Xbee-s2c
 
 In this repository, I make a communication between two microcontrollers using XBee protocol, then sending frames to android phone through Bluetooth Low Energy (BLE). 
 
