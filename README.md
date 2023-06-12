@@ -8,7 +8,7 @@ Components:
   - NODEMCU ESP32
   - module XBee S2C (with module board base shield for easily serial connecting)
   - DHT22 Sensor Module 
-  - A phone has install [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en_US&pli=1)
+  - A phone has been installed [nRF Connect](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en_US&pli=1)
 
 # XBee® ZigBee Network Configuration
 - Install [XCTU](http://www.digi.com/products/wireless-wired-embedded-solutions/zigbee-rf-modules/xctu).
