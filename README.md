@@ -1,6 +1,6 @@
 # A Gateway using Xbee
 
-In this repository, I make a communication between two microcontrollers using XBee protocol, then sending frames to android phone through Bluetooth Low Energy (BLE). 
+In this repository, I make a communication between two microcontrollers using XBee protocol, then sending frames to phone through Bluetooth Low Energy (BLE). 
 
 ![image](https://github.com/nub-atur/simple-xbee-gateway/assets/136115054/38464109-f88d-4a5b-aa67-736b78088385)
 
@@ -15,3 +15,4 @@ Components:
 - Use `XCTU` for installing the firmware to the `XBee®` devices.
 - `XBee® ZigBee` network must have only one `Coordinator`.
 - All other devices in the network must be `XBee® ZigBee End Device` or `XBee® ZigBee Router`. Here, the second xbee is configured as a router.
+
