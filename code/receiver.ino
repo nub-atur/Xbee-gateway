@@ -43,7 +43,7 @@ void setup() {
   //Setup BLE
   Serial.println("Starting BLE work!");
 
-  BLEDevice::init("TEST1");
+  BLEDevice::init("TEST1"); //config hostname sever
 
   BLEServer *pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
