@@ -3,10 +3,10 @@
 #include <Arduino.h>
 #include <string.h>
 #include "SoftwareSerial.h"
-#define RXp2 16 //choose UART2 chanel to connect with xbee  
+#define RXp2 16  //choose UART2 chanel to connect with xbee  
 #define TXp2 17
-#define DHTPIN 21 //sensor pin
-#define DHTTYPE DHT22 // sensor type
+#define DHTPIN 21  //sensor pin
+#define DHTTYPE DHT22  // sensor type
  
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -43,7 +43,7 @@ void loop()
 
   //trans Humidity
   Data.Data4bytes = h;
-  Serial2.write(Data.Byte.byte1);
+  Serial2.write(Data.Byte.byte1); //send 4 bits each time
   Serial2.write(Data.Byte.byte2);
   Serial2.write(Data.Byte.byte3);
   Serial2.write(Data.Byte.byte4);
