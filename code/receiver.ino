@@ -1,4 +1,4 @@
-#include "SoftwareSerial.h"
+#include "SoftwareSerial.h" 
 #include <Arduino.h>
 #include <BLEDevice.h>
 #include <BLEUtils.h>
@@ -45,7 +45,7 @@ void setup() {
 
   BLEDevice::init("TEST1"); //config hostname sever
 
-  BLEServer *pServer = BLEDevice::createServer();
+  BLEServer *pServer = BLEDevice::createServer(); //create sever
   pServer->setCallbacks(new MyServerCallbacks());
 
   BLEService *pService = pServer->createService(SERVICE_UUID);
