@@ -47,7 +47,7 @@ void loop()
   Serial2.write(Data.Byte.byte2);
   Serial2.write(Data.Byte.byte3);
   Serial2.write(Data.Byte.byte4);
-  Serial.print("Humidity:");
+  Serial.print("Humidity:");      //print for checking results on laptop
   Serial.print(h);
   Serial.println(F("%"));
 
