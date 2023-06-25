@@ -65,7 +65,7 @@ void setup() {
 void loop() {
     if (deviceConnected) {
       while(Serial2.available()){
-        // receive humidity
+        // receive humidity from serial 2 
         txValue.Byte.byte1 = Serial2.read();
         txValue.Byte.byte2 = Serial2.read();
         txValue.Byte.byte3 = Serial2.read();
