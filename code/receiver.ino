@@ -81,7 +81,7 @@ void loop() {
         Serial.print(txString);
         Serial.println(" % ***");
 
-        //receive temp
+        //receive temp from serial2
         txValue.Byte.byte1 = Serial2.read(); 
         txValue.Byte.byte2 = Serial2.read();
         txValue.Byte.byte3 = Serial2.read();
