@@ -37,7 +37,7 @@ class MyServerCallbacks: public BLEServerCallbacks {
 };
 
 void setup() {
-  Serial.begin(115200);//config serial chanel, UART1 to PC, UART2 to xbee
+  Serial.begin(115200);//config serial chanel, UART0 to PC, UART2 to xbee
   Serial2.begin(9600, SERIAL_8N1, RXp2, TXp2);
 
   //Setup BLE
